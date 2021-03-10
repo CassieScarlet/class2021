@@ -1,0 +1,47 @@
+// {
+//     "name": "Scarlet's Web",
+//     "short_name": "Scarlet",
+//     "description": "All about me and commission information.",
+//     "start_url": "../index.html",
+//     "display":"standalone",
+//     "background_color": "#121212",
+//     "theme_color": "#000000",
+//     "orientation": "portrait-primary",
+//     "icons": [{
+//       "src": "../images/icons/flag.png",
+//       "sizes": "192x192",
+//       "type": "image/png"
+//     },
+//     {
+//         "src": "../images/icons/pencil.png",
+//         "sizes": "48x48",
+//         "type": "image/png"
+//     },
+//     {
+//         "src": "../images/icons/music.png",
+//         "sizes": "48x48",
+//         "type": "image/png"
+//     },
+//     {
+//         "src": "../images/Scarlet.png",
+//         "sizes": "2480x3508",
+//         "type": "image/png"
+//     },
+//     {
+//         "src": "../images/Kitsune.png",
+//         "sizes": "512x512",
+//         "type": "image/png"
+//     },
+//     {
+//         "src": "../images/WolfGirl.jpg",
+//         "sizes": "512x512",
+//         "type": "image/jpg"
+//     },
+//     {
+//         "src": "../images/RLDrawing.jpg",
+//         "sizes": "512x512",
+//         "type": "image/jpg"
+//     }
+        
+// ]
+//   }

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Scarlet's Page</title>
+	<link rel="icon" href="images/icons/flag.png">
+	<script src="main.js" ></script>
+	<!-- <script src="install.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="main.css"></style>
+	<!-- <link rel="manifest" href="public/manifest.json"> -->
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="About Casey">
+<link rel="apple-touch-icon" href="images/icons/flag.ico">
+<meta name="theme-color" content="#000">
+
+<meta name="description" content="This is the page about me. Come see who I am and learn about me, please.">
+	
+</head>
+<body>
+
+
+	<h1 id="text0">Casey Weeks</h1>
+
+	<div class="divs" data-role="navbar" class="navigation">
+        <ul>
+			<li><a href="index.html" id="active">About me</a></li>
+			<li><a href="printmaking.html">Printmaking</a></li>
+			<li><a href="3D.html">3D Design</a></li>
+			<li><a href="ColorTheory.html">Color Theory</a></li>
+			<!-- <li><a href="playlist.html">Playlists</a></li>
+			<li><a href="commissions.html">Commissions</a></li> -->
+        </ul>
+	</div>
+
+	<br>
+	<br>
+
+	<div class="divs">
+		<button class="buttons" onclick="showMe(), showHobbies(), showFacts(), showWeakness(), showStrengths(), showGifts(), showFavorite()"> Show All</button>
+		<button class="buttons" id="dark" onclick="changeBackcolor()"> Dark Mode</button>
+	</div>
+
+	<h2 id="text1">About me</h2>
+	
+	<button class="buttons" type="button" onclick="showMe()"> Hide and show</button>
+    	<div style="display:none;" id="mii" width="120px">
+			<ol class="me">
+				<li style="background-color:#DC143C;"> Hi, I'm Casey, this page is going to be all about me though. Hopefully to help you understand me better.</li>
+				<li style="background-color:orange;"> I did this all to symbolize other stuff about me.</li>
+				<li style="background-color:yellow;"> This page may get a little bit boring but I'll try to make it as interesting as I can though.</li>
+				<li style="background-color:#00FF00;"> But I have used many colors to help symbolize about me.</li>
+				<li style="background-color:#00FFFF;"> I'll talk about a lot of random stuff but art is inlcuded in the next page.</li>
+				<li style="background-color:#FF00FF;"> I'll also talk about my interests and hobbies.</li>
+			</ol>
+		</div>
+
+
+
+
+	<h2 id="text2">Hobbies</h2>
+
+	<button class="buttons" type="button" onclick="showHobbies()">Hide and show</button>	
+		<div style="float: center; display: none; flex-wrap: wrap;" id="hobby">
+			<ol class="hobbies">
+				<li style="background-color:lightblue;">I enjoy to draw, usually traditional with an anime type of style.</li>
+				<li style="background-color:pink;">I like to play games.</li>
+				<li style="background-color:white;">I like to write code.</li>
+				<li style="background-color:pink;">I like to write in binary.</li>
+				<li style="background-color:lightblue">I enjoy hanging out and talking with people.</li>
+			</ol>
+		</div>
+
+
+
+
+	<h2 id="text3"> Random Facts</h2>
+
+		<button class="buttons" type="button" onclick="showFacts()">Hide and show</button>	
+		<div style="display: none;" id="fact">
+			<ol class="showfacts">
+				<li style="background-color: #a40061;">I'm gender neutral.</li>
+				<li style="background-color: #b75592;">I like and dislike a lot of people. Usually not a people person.</li>
+				<li style="background-color: #ececea;">I do have misophonia so I'm trying to deal with that, basically an allergy to sound.</li>
+				<li style="background-color: #c44e55;">I'm just me.</li>
+				<li style="background-color: #8a1e04;">I enjoy meeting new friends, I love conversations even if I'm not very talkative. I just don't like groups.</li>
+			</ol>
+		</div>
+
+
+
+
+	<h2 id="text4"> Weaknesses</h2>
+
+	<button class="buttons" type="button" onclick="showWeakness()">Hide and show</button>	
+		<div style="display: none;" id="weakness">
+			<ol class="weaknesses" style="background-color:red;">
+				<li> I have trust issues.</li>
+				<li> I have misophonia.</li>
+				<!-- <li> I fall in love too easily.</li> -->
+				<li> I have autism.</li>
+				<li> I'm shy.</li>
+				<li> I'm emotional on the inside and have trouble showing it to most of the time.</li>
+				<li> I have a few obsessions, Anime, video games, and computers are a few of them.</li>
+				<li> I like attention and physical affection.</li>
+				<!-- <li> I have depression.</li> -->
+				<li> It's hard for me to find love.</li>
+				<li> I'm really ticklish.</li>
+				<li> I find it hard to speak in person sometimes.</li>
+			</ol>
+		</div>
+
+
+
+
+	<h2 id="text5"> Strengths</h2>
+
+	<button class="buttons" type="button" onclick="showStrengths()">Hide and show</button>	
+		<div style="display: none;" id="strength">
+			<ol class="strengths" style="background-color:green;">
+				<li> I learn easily.</li>
+				<li> I have some musical skills.</li>
+				<li> I have some artistic skills.</li>
+				<li> I have autism.</li>
+				<li> I'm an open person.</li>
+				<li> I'm usually really accepting and forgiving.</li>
+				<li> I care for everyone, everyone is a friend upon me meeting them.</li>
+				<li> I'm not a master of anything, I'm basically a jack of all trades as long as I learn the subject I can do it.</li>
+			</ol>
+		</div>
+
+
+
+
+	<h2 id="text6">Gifts</h2>
+
+	<button class="buttons" type="button" onclick="showGifts()"> Tokens of appreciation </button>	
+		<div style="display: none;" id="gifts">
+			<ol class="gift" style="background-color:black; color:hotpink;">
+				
+					<p> Recieving Praise and affection.</p>
+						<li> Being petted is great it makes me feel safe around the person and I can tell (emotionally and physically) that they care.</li>
+						<li> I enjoy gifts of almost any kind even if I don't like it or can't use it.</li>
+						<li> Hugs are always nice.</li>
+						<li> I really enjoy others brushing and playing with my hair even though it's short now.</li>
+			
+
+			
+					<p>Giving thanks and apprecion</p>
+						<li> I will give hugs or fistbumps depending on the person and what they're ok with.</li>
+						<li> I might give gifts includes: drawings, cards, snacks or other random items that I find cute.</li>
+						<li> I do enjoy giving comments but I rarely do it in person as I'm a shy person in groups.</li>
+				
+			</ol>
+		</div>
+
+
+
+
+		<h2 id="text7">Favorites</h2>
+
+	<button class="buttons" type="button" onclick="showFavorite()">Hide and show</button>	
+		<div style="display: none;" id="favorites">
+			<ol class="favorite" style="color:blue;">
+				
+					<p> Favorite food</p>
+						<li>Pizza</li>
+						<li>Taco's</li>
+						<li>Veggie lasagna</li>
+						<li>Stromboli</li>
+				
+
+				
+					<p>Favorite drinks</p>
+						<li>Rootbeer</li>
+						<li>Dew S.A.</li>
+						<li>Red Cream soda</li>
+						<li>Blue Mtn. Dew</li>
+						<li>Red Mtn. Dew</li>
+						<li>Orange crush</li>
+						<br>
+						<li>Darjeeling Tea</li>
+						<li>Chai Tea</li>
+						<li>Sweet Tea</li>
+				
+				
+				
+					<!-- <p> Favorite Activities with someone I care about</p>
+						<li>Being petted</li>
+						<li>Having my hair brushed and braided</li>
+						<li>Cuddles</li>
+						<li>Hugs</li>
+						<li>Talking (about anything)</li>
+						<li>Answering questions</li> -->
+				
+
+					<p>Favorite Games</p>
+						<li>Touhou 1-17 and the spin-off games </li>
+						<!-- <li>Fortnite (with a specific person ❤️ ) </li> -->
+						<li>Arknights </li>
+						<li>Azur Lane </li>
+						<li>Minecraft</li>
+						<li>Genshin Impact (I do recommend)</li>
+				
+			</ol>
+		</div>
+
+
+<footer>
+	<p id="text8">Contact information:</p>
+	<p id="text9">Gmail:<a href="weeksu@hocking.edu">weeksu@hocking.edu</a></p>
+	<p id="text10">Youtube:<a href="https://www.youtube.com/channel/UCem3EGRNxKLmBiPak8ZubAw">My Youtube channel</a></p>
+</footer>
+	
+</body>
+</html>
